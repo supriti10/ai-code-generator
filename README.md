@@ -3,6 +3,9 @@
 An AI-powered code assistant that can **generate, explain, and debug code** using LLaMA 3 via Groq API.
 Built with a simple and clean UI using Streamlit.
 
+## 🌐 Live Demo  
+🔗 https://ai-code-generator-s10.streamlit.app/
+
 ---
 
 ## 🚀 Features
