@@ -1,11 +1,17 @@
+import streamlit as st
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
 
 load_dotenv()
 
+try:
+    api_key = st.secrets.get("GROQ_API_KEY") 
+except:    
+    api_key = os.getenv("GROQ_API_KEY")
+
 client = OpenAI(
-    api_key=os.getenv("GROQ_API_KEY"),
+    api_key = api_key,
     base_url="https://api.groq.com/openai/v1"
 )
 

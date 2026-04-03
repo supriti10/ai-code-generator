@@ -2,7 +2,7 @@ import streamlit as st
 from llama_api import generate_code
 from utils.prompt_templates import code_prompt, explain_prompt, debug_prompt
 
-st.set_page_config(page_title="AI Code Assistant", layout="wide")
+st.set_page_config(page_title="AI Code Generator", layout="wide")
 
 # 🎨 Header
 st.title("💻 AI Code Generator (LLaMA 3)")
